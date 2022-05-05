@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+    PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+    "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+    
+<mapper namespace="mapper.kb">
+
+	<select id="selectBalance" parameterType="kb_VO" resultType="long">
+		select balance from KB_BANK where accountNo=#{accountNo} and name=#{name}
+	</select>
+	
+	<update id="updateBalance" parameterType="kb_VO">
+		update KB_BANK set balance=#{balance} where accountNo=#{accountNo} and name=#{name}
+	</update>	
+
+</mapper> 

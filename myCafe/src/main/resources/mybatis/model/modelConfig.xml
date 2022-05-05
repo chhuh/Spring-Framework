@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE configuration
+    PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+    "http://mybatis.org/dtd/mybatis-3-config.dtd">
+
+<configuration>
+
+	<typeAliases>
+		<typeAlias type="com.ssafy.web.vo.MemberVO" alias="memberVO"/>
+		<typeAlias type="com.ssafy.web.vo.OrderVO" alias="orderVO"/>
+		<typeAlias type="com.ssafy.web.vo.KB_VO" alias="kb_VO"/>
+		<typeAlias type="com.ssafy.web.vo.ShinHanVO" alias="shinHanVO"/>
+	</typeAliases>
+
+</configuration>
